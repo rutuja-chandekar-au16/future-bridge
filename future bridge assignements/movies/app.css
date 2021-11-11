@@ -1,0 +1,30 @@
+body\{
+    Background : #141414 
+    color: #fffffff;
+
+}
+
+.movie-app {
+    overflow: auto;
+    flex-wrap: nowrap;
+}
+
+.fluid-container{
+    position: relative;
+    transition: ease;
+    cursor: pointer;
+    transform: scaleY(1.1);
+
+}
+
+.container {
+    position: absolute
+    background: rgba(0,0,0,0,0);
+    width: 10;
+    transition: 0.5 raw;
+    opacity: 0;
+    font: optional;
+    padding: auto;
+    text-align: center;
+    
+}
